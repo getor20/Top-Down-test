@@ -224,22 +224,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
-      propertyPath: m_Actions
-      value: 
-      objectReference: {fileID: -944628639613478452, guid: f6b4517bb80abdb48b12dcb8f727a05d, type: 3}
-    - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
-      propertyPath: m_DefaultActionMap
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
-      propertyPath: m_ActionEvents.Array.size
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_ActionId
-      value: f094828c-ce7c-41bb-83f5-fa36babecfc3
-      objectReference: {fileID: 0}
-    - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
       propertyPath: m_ActionEvents.Array.data[1].m_ActionId
       value: 72bdaf64-284b-4132-861e-44673b8c6709
       objectReference: {fileID: 0}
@@ -286,10 +270,6 @@ PrefabInstance:
     - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
       propertyPath: m_ActionEvents.Array.data[12].m_ActionId
       value: 085153f9-88bd-4882-ad0b-429a4ad84e07
-      objectReference: {fileID: 0}
-    - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
-      propertyPath: m_ActionEvents.Array.data[0].m_ActionName
-      value: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
       objectReference: {fileID: 0}
     - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
       propertyPath: m_ActionEvents.Array.data[1].m_ActionName
