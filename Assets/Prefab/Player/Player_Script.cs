@@ -3,30 +3,16 @@ using UnityEngine.InputSystem;
 
 public class Player_Script : MonoBehaviour
 {
+    private Player_Animator_Scripts player_Animator_Scripts => GetComponent<Player_Animator_Scripts>();
     private Rigidbody2D rd2D => GetComponent<Rigidbody2D>();
     private Vector2 vector2 = Vector2.zero;
 
     [SerializeField]
-    private float speed = 10f;
+    private float speed = 10f;  
 
-    private bool _isFacingRight = true;
+    private bool Flip = false;
 
-    public bool IsFacingRight
-    {
-        get
-        {
-            return _isFacingRight;
-        }
-        private set
-        {
-            if (_isFacingRight != value)
-            {
-                transform.localScale *= new Vector2(-1  , 1);
-            }
-
-            _isFacingRight = value;
-        }
-    }
+    public bool IsMove = false;
 
     private void FixedUpdate()
     {
@@ -35,20 +21,20 @@ public class Player_Script : MonoBehaviour
 
     public void Move(InputAction.CallbackContext context)
     {
+        if (context.started)
+        {
+            IsMove = true;
+        }
+        else if (context.canceled)
+        {
+            IsMove = false;
+        }
+
         vector2 = context.ReadValue<Vector2>();
 
-        SetFacingDirection(vector2);
-    }
-
-    private void SetFacingDirection(Vector2 direction)
-    {
-        if (direction.x > 0 && !IsFacingRight)
+        if (vector2.x != 0 && !Flip)
         {
-            IsFacingRight = true;   
-        }
-        else if (direction.x < 0 && IsFacingRight)
-        {
-            IsFacingRight = false;
+            player_Animator_Scripts.Flip(vector2.x);
         }
     }
 }
