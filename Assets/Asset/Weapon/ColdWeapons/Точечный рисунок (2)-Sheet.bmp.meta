@@ -140,12 +140,12 @@ TextureImporter:
         (2)-Sheet_0"
       rect:
         serializedVersion: 2
-        x: 1
-        y: 26
-        width: 30
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 17
+        width: 16
+        height: 13
+      alignment: 9
+      pivot: {x: 0.9375, y: 0.07692308}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -162,12 +162,12 @@ TextureImporter:
         (2)-Sheet_1"
       rect:
         serializedVersion: 2
-        x: 40
-        y: 26
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 17
+        y: 17
+        width: 12
+        height: 15
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.06666667}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -184,12 +184,12 @@ TextureImporter:
         (2)-Sheet_2"
       rect:
         serializedVersion: 2
-        x: 68
-        y: 26
-        width: 24
+        x: 32
+        y: 17
+        width: 13
         height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.07692308, y: 0.0625}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,12 +206,12 @@ TextureImporter:
         (2)-Sheet_3"
       rect:
         serializedVersion: 2
-        x: 44
-        y: 4
+        x: 21
+        y: 2
         width: 8
         height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.07692308}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -238,6 +238,7 @@ TextureImporter:
       "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A (2)-Sheet_1": -1275342268
       "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A (2)-Sheet_2": -72524679
       "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A (2)-Sheet_3": -444973280
+      "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A (2)-Sheet_4": 881339779
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
