@@ -5566,6 +5566,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1630475935758788621, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: dd3e7cc5cf7887041af0124644b5e87b, type: 2}
     - target: {fileID: 2289984777961022033, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
       propertyPath: m_ActionEvents.Array.data[1].m_ActionId
       value: abef2824-ba56-49f1-99eb-e781e358db6a
@@ -5662,10 +5666,18 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[12].m_ActionName
       value: UI/TrackedDeviceOrientation
       objectReference: {fileID: 0}
-    - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
-      propertyPath: m_ActionEvents.Array.data[1].m_ActionId
-      value: 72bdaf64-284b-4132-861e-44673b8c6709
+    - target: {fileID: 2519074326747436291, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2519074326747436291, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738114839583640321, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -444973280, guid: a5ac71c9334a36a419447a6345157680, type: 3}
     - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
       propertyPath: m_ActionEvents.Array.data[2].m_ActionId
       value: e026d3be-fff0-417c-88b8-3aaa1a7e9231
@@ -5709,10 +5721,6 @@ PrefabInstance:
     - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
       propertyPath: m_ActionEvents.Array.data[12].m_ActionId
       value: 085153f9-88bd-4882-ad0b-429a4ad84e07
-      objectReference: {fileID: 0}
-    - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
-      propertyPath: m_ActionEvents.Array.data[1].m_ActionName
-      value: Player/Look[/Mouse/delta]
       objectReference: {fileID: 0}
     - target: {fileID: 3231276092431974403, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
       propertyPath: m_ActionEvents.Array.data[2].m_ActionName
@@ -5798,6 +5806,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3957108969730426548, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 6982241904669524712, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
       propertyPath: mainCamera
       value: 
@@ -5807,7 +5819,9 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5014293063279422220, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
+    - {fileID: 6463166763624376587, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27661fc6ac5cbf8459c7ac012da3c9a0, type: 3}

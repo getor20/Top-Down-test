@@ -1,8 +1,7 @@
 ﻿namespace Assets.Prefab.Player
 {
-    public class PlayerAnimationStrings
+    internal class WeaponsAnimationStrings
     {
-        public const string IsMove = "IsMove";
         public const string Attacks = "Attacks";
     }
 }
