@@ -1,14 +1,14 @@
 {
-    "name": "ColdWeaponsInput",
+    "name": "Sword1",
     "maps": [
         {
             "name": "Player",
-            "id": "4394d417-90ff-4673-9c11-650201440cae",
+            "id": "10b971ef-c56b-4ff9-97bc-a592aaf202b2",
             "actions": [
                 {
-                    "name": "Attacks",
+                    "name": "Attack",
                     "type": "Button",
-                    "id": "2aca8611-168a-4b0f-b138-af04d89c53d5",
+                    "id": "a653a79f-0fcb-49d2-8cd6-2097cc304696",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -18,12 +18,12 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "22e8d213-9f88-4b0e-929e-0d55f7e67d03",
+                    "id": "93b9c585-44e8-4811-ba94-a438315698d6",
                     "path": "<Mouse>/press",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Attacks",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
