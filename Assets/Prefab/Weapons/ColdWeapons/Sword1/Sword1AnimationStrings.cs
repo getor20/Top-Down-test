@@ -2,6 +2,6 @@
 {
     public class Sword1AnimationStrings
     {
-        public const string Attacks = "Attacks";    
+        public const string Attacks = "Attacks";
     }
 }

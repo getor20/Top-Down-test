@@ -1,3 +1,4 @@
+using Assets.Prefab.Weapons.ColdWeapons.Sword1;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -10,8 +11,7 @@ public class Sword1 : MonoBehaviour
     private Camera mainCamera;
     [SerializeField]
     private GameObject player;
-
-    public bool Attacks = false;
+    private Animator _animator => GetComponent<Animator>();
     private float timer;
     void Update()   
     {
@@ -28,13 +28,10 @@ public class Sword1 : MonoBehaviour
     {
         if (context.started)
         {
-            Attacks = true;
-        }
-        else if (context.canceled)
-        {
-            
-            
-
+            while (true)
+            {
+                _animator.SetTrigger(Sword1AnimationStrings.Attacks);
+            }
         }
     }
 }
