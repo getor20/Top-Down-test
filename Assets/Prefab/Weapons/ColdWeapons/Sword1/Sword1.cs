@@ -12,10 +12,10 @@ public class Sword1 : MonoBehaviour
     private GameObject player;
 
     public bool Attacks = false;
-
+    private float timer;
     void Update()   
     {
-
+        timer += Time.deltaTime;
         Vector3 mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0;
         Vector3 direction = mousePos - transform.position;
@@ -32,7 +32,9 @@ public class Sword1 : MonoBehaviour
         }
         else if (context.canceled)
         {
-            Attacks = false;
+            
+            
+
         }
     }
 }
