@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a5ac71c9334a36a419447a6345157680
+guid: 2b2d5b3c78dfd3343bc8eb31707de7dc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -134,95 +134,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A
-        (2)-Sheet_0"
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 22
-        width: 19
-        height: 16
-      alignment: 9
-      pivot: {x: 0.94736844, y: 0.0625}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7129a166441e42441a44275c5528402f
-      internalID: 328017743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A
-        (2)-Sheet_1"
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 22
-        width: 12
-        height: 18
-      alignment: 9
-      pivot: {x: 0.6666667, y: 0.055555556}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38012a0c93aaeb04cacb25a566ebeb58
-      internalID: -1275342268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A
-        (2)-Sheet_2"
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 22
-        width: 16
-        height: 19
-      alignment: 9
-      pivot: {x: 0.0625, y: 0.05263158}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b149d35954e0d844bbf96b91a397d3d
-      internalID: -72524679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A
-        (2)-Sheet_3"
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 0
-        width: 8
-        height: 16
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2a86e42f9ac1f84bbb7c07b10b0fb23
-      internalID: -444973280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -233,11 +145,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A (2)-Sheet_0": 328017743
-      "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A (2)-Sheet_1": -1275342268
-      "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A (2)-Sheet_2": -72524679
-      "\u0422\u043E\u0447\u0435\u0447\u043D\u044B\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A (2)-Sheet_3": -444973280
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
