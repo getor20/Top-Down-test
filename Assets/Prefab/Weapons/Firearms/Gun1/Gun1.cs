@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Gun1 : MonoBehaviour
 {
@@ -6,6 +7,10 @@ public class Gun1 : MonoBehaviour
     private Camera mainCamera;
     [SerializeField]
     private GameObject player;
+    [SerializeField]
+    private GameObject bullet;
+    [SerializeField]
+    private Transform bulletTransform;
 
     void Update()
     {
@@ -29,5 +34,13 @@ public class Gun1 : MonoBehaviour
         }
 
         transform.localScale = LocalScale;
+    }
+
+    public void Fire(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            Instantiate(bullet, bulletTransform.position, transform.rotation);
+        }
     }
 }
