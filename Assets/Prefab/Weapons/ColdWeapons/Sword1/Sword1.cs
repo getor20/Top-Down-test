@@ -26,11 +26,11 @@ public class Sword1 : MonoBehaviour
 
         if (angle > 90 || angle < -90)
         {
-            LocalScale.x = -1f;
+            LocalScale.y = -1f;
         }
         else
         {
-            LocalScale.x = +1f;
+            LocalScale.y = +1f;
         }
 
         transform.localScale = LocalScale;

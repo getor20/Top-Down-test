@@ -5652,6 +5652,10 @@ PrefabInstance:
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 7028157069797344448, guid: e2a66a28b647ff146b627ac4bb69ecd9, type: 3}
+      propertyPath: StartTimeFire
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7044206449172842209, guid: e2a66a28b647ff146b627ac4bb69ecd9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

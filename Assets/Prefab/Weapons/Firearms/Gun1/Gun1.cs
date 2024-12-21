@@ -12,7 +12,23 @@ public class Gun1 : MonoBehaviour
     [SerializeField]
     private Transform bulletTransform;
 
+    [SerializeField]
+    private float timer;
+    [SerializeField]
+    private float maxTimer = 0.2f;
+
+
     void Update()
+    {
+        timer += Time.deltaTime;
+        if (timer > maxTimer)
+        {
+            timer = maxTimer;
+        }
+        Flip();
+    }
+
+    public void Flip()
     {
         Vector3 mousePos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0;
@@ -40,7 +56,12 @@ public class Gun1 : MonoBehaviour
     {
         if (context.started)
         {
-            Instantiate(bullet, bulletTransform.position, transform.rotation);
+            if (timer >= maxTimer)
+            {
+                Instantiate(bullet, bulletTransform.position, transform.rotation);
+                Debug.Log("oo");
+                timer = 0;
+            }
         }
     }
 }
